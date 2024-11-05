@@ -61,7 +61,7 @@ export default async function Index() {
           </LinkButton>
         </div>
       </Container>
-      <Container className={styles.section}>
+      {/* <Container className={styles.section}>
         <h2 className={styles.sectionTitle}>Features</h2>
         <div className={styles.featuresGrid}>
           <Feature
@@ -118,7 +118,7 @@ export default async function Index() {
             title="SWR"
           />
         </div>
-      </Container>
+      </Container> */}
     </MarketingLayout>
   );
 }
