@@ -19,7 +19,7 @@ export function Logo({ className, ...props }: ComponentProps<"div">) {
         />
         
       </svg> */}
-      <svg 
+      <svg
       className={styles.mark}
       width="800px" 
       height="800px" 
