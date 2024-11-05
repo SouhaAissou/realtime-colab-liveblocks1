@@ -1,6 +1,6 @@
-import clsx from "clsx";
+// import clsx from "clsx";
 import { redirect } from "next/navigation";
-import { ComponentProps, ReactNode } from "react";
+// import { ComponentProps, ReactNode } from "react";
 import { auth, signIn } from "@/auth";
 import { DASHBOARD_URL } from "@/constants";
 import { SignInIcon } from "@/icons";
@@ -9,9 +9,6 @@ import { Button } from "@/primitives/Button";
 // import { LinkButton } from "@/primitives/Button";
 import { Container } from "@/primitives/Container";
 import styles from "./page.module.css";
-
-
-
 
 export default async function Index() {
   const session = await auth();
