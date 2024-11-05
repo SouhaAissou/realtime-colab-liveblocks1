@@ -53,8 +53,6 @@ export default async function Index() {
           >
             <Button icon={<SignInIcon />}>Sign in</Button>
           </form>
-          <div> just deply this </div>
-          <div> is thsi working????</div>
           {/* <LinkButton
             href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
             target="_blank"

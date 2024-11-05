@@ -14,9 +14,9 @@ export function MarketingFooter({
   return (
     <footer className={clsx(className, styles.footer)} {...props}>
       <Container className={styles.container}>
-        <span className={styles.copyright}>© {year} Liveblocks Inc.</span>
+        
         <LinkButton
-          href="https://github.com/liveblocks/liveblocks/tree/main/starter-kits/nextjs-starter-kit"
+          href="httphttps://github.com/SouhaAissou/realtime-colab-liveblocks1"
           icon={<GitHubIcon />}
           target="_blank"
           variant="secondary"
