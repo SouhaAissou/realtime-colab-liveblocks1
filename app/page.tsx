@@ -26,7 +26,8 @@ export default async function Index() {
             Real-Time Document Collaboration Platform
           </h1>
           <p className={styles.heroLead}>
-            Experience seamless, real-time document editing with powerful tools designed for collaborative success.&nbsp;
+            Experience seamless, real-time document editing with powerful &nbsp;
+            tools designed for collaborative success.
           </p>
         </div>
         <div className={styles.heroActions}>
