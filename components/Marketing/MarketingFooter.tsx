@@ -14,7 +14,6 @@ export function MarketingFooter({
   return (
     <footer className={clsx(className, styles.footer)} {...props}>
       <Container className={styles.container}>
-        
         <LinkButton
           href="httphttps://github.com/SouhaAissou/realtime-colab-liveblocks1"
           icon={<GitHubIcon />}
