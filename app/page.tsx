@@ -23,7 +23,7 @@ export default async function Index() {
       <Container className={styles.section}>
         <div className={styles.heroInfo}>
           <h1 className={styles.heroTitle}>
-          Real-Time Document Collaboration Platform
+            Real-Time Document Collaboration Platform
           </h1>
           <p className={styles.heroLead}>
             Experience seamless, real-time document editing with powerful tools designed for collaborative success.&nbsp;
