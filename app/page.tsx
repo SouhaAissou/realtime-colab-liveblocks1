@@ -52,13 +52,13 @@ export default async function Index() {
           >
             <Button icon={<SignInIcon />}>Sign in</Button>
           </form>
-          <LinkButton
+          {/* <LinkButton
             href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
             target="_blank"
             variant="secondary"
           >
             Learn more
-          </LinkButton>
+          </LinkButton> */}
         </div>
       </Container>
       {/* <Container className={styles.section}>
