@@ -20,7 +20,7 @@ export function MarketingFooter({
           target="_blank"
           variant="secondary"
         >
-          View on GitHub
+          View source code on GitHub
         </LinkButton>
       </Container>
     </footer>
