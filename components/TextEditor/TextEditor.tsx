@@ -1,4 +1,3 @@
-
 "use client";
 
 import { ClientSideSuspense } from "@liveblocks/react";
@@ -62,8 +61,19 @@ function TiptapEditor() {
         history: false,
         blockquote: { HTMLAttributes: { class: "tiptap-blockquote" } },
         code: { HTMLAttributes: { class: "tiptap-code" } },
-        codeBlock: { languageClassPrefix: "language-", HTMLAttributes: { class: "tiptap-code-block", spellcheck: false } },
-        heading: { levels: [1, 2, 3], HTMLAttributes: { class: "tiptap-heading" } },
+        codeBlock: { 
+          languageClassPrefix: "language-", 
+          HTMLAttributes: { 
+            class: "tiptap-code-block", 
+            spellcheck: false
+           },
+         },
+        heading: { 
+          levels: [1, 2, 3], 
+          HTMLAttributes: { 
+            class: "tiptap-heading" 
+          }
+         },
         horizontalRule: { HTMLAttributes: { class: "tiptap-hr" } },
         listItem: { HTMLAttributes: { class: "tiptap-list-item" } },
         orderedList: { HTMLAttributes: { class: "tiptap-ordered-list" } },
@@ -73,12 +83,20 @@ function TiptapEditor() {
       Highlight.configure({ HTMLAttributes: { class: "tiptap-highlight" } }),
       Image.configure({ HTMLAttributes: { class: "tiptap-image" } }),
       Link.configure({ HTMLAttributes: { class: "tiptap-link" } }),
-      Placeholder.configure({ placeholder: "Start writing…", emptyEditorClass: "tiptap-empty" }),
+      Placeholder.configure({ 
+        placeholder: "Start writing…", 
+        emptyEditorClass: "tiptap-empty" 
+      }),
       CustomTaskItem,
       TaskList.configure({ HTMLAttributes: { class: "tiptap-task-list" } }),
       TextAlign.configure({ types: ["heading", "paragraph"] }),
       Typography,
-      Youtube.configure({ modestBranding: true, HTMLAttributes: { class: "tiptap-youtube" } }),
+      Youtube.configure({ 
+        modestBranding: true, 
+        HTMLAttributes: { 
+          class: "tiptap-youtube" 
+        }
+      }),
     ],
   });
 
