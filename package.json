@@ -1,5 +1,5 @@
 {
-  "description": "This repository contains a collaborative starter kit using Liveblocks and Next.js.",
+  "description": "This repository contains a collaborative text editor using Liveblocks and Next.js.",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
     "@radix-ui/react-select": "^1.1.1",
     "@radix-ui/react-tabs": "^1.0.1",
     "@radix-ui/react-tooltip": "^1.0.2",
+    "@supabase/supabase-js": "^2.46.1",
     "@tiptap/extension-character-count": "^2.2.4",
     "@tiptap/extension-highlight": "^2.2.4",
     "@tiptap/extension-image": "^2.2.4",
@@ -39,6 +40,7 @@
     "nanoid": "^4.0.0",
     "next": "^14.1.4",
     "next-auth": "5.0.0-beta.16",
+    "next-themes": "^0.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swr": "^2.2.5"
