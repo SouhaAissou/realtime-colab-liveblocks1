@@ -167,7 +167,8 @@ html.grabbing * {
 }
 
 /* Give the text editor mentions/marks a blue accent color */
-.lb-root[class^="lb-tiptap-"], .lb-root[class*=" lb-tiptap-"] {
+.lb-root[class^="lb-tiptap-"],
+.lb-root[class*=" lb-tiptap-"] {
   --lb-accent: var(--color-alternative-accent);
 }
 @layer base {

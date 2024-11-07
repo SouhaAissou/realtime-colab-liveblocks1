@@ -27,3 +27,6 @@ EXPOSE 3000
 
 # Start the app
 CMD ["npm", "run", "start"]
+
+RUN npx prettier --write .
+
