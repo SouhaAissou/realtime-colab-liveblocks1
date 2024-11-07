@@ -44,8 +44,31 @@ The project is organized into the following key directories:
 ## Getting Started
 
 ### Prerequisites
-- **Node.js** (v18 or later)
-- **Docker** (optional but recommended for consistent environment setup)
+
+To run this project, ensure the following prerequisites are met:
+
+1. **Node.js**: Version 18 or later is recommended for compatibility with Next.js and TypeScript.
+2. **npm**: The project relies on npm for managing dependencies, so make sure it’s installed alongside Node.js.
+
+### Key Dependencies
+
+This project uses the following primary dependencies:
+
+- **@liveblocks** (`client`, `node`, `react`, `react-tiptap`, `react-ui`): Powers real-time collaboration.
+- **Next.js (v14.1.4)**: The main framework for building the frontend, leveraging server-side rendering and static generation.
+- **React (v18.2.0)** and **React DOM (v18.2.0)**: The UI library used for building interactive user interfaces.
+- **Supabase** (`ssr` and `supabase-js`): Provides backend support for authentication and real-time database functionality.
+- **Shadcn UI**: For customizable and responsive UI components.
+- **Tailwind CSS**: Utility-first CSS framework for efficient styling.
+
+### Dev Dependencies
+
+For development, this project uses:
+
+- **TypeScript**: Strongly-typed JavaScript for maintaining code quality.
+- **ESLint** and **Prettier**: For code linting and formatting.
+- **Tailwind CSS and PostCSS**: For managing styles with custom configurations.
+
 
 ### Installation
 
@@ -55,14 +78,17 @@ The project is organized into the following key directories:
    cd realtime-colab
    ```
 1. Install dependencies:
-  ```npm install
+  ```bash
+  npm install
   ```
 1. Set up environment variables by creating an `.env.local` file.
 
 ### Running the Application
+
 To start the app in development mode:
-```npm run dev
-```
+  ```bash
+  npm run dev
+  ```
 The app will be available at http://localhost:3000 (or whatever adress will appear to you :D).
 
 
