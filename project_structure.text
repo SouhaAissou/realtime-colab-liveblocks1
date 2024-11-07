@@ -1,0 +1,320 @@
+- .env.local
+- .eslintignore
+- .eslintrc.js
+- .gitignore
+- .prettierignore
+- .prettierrc
+- app
+  - api
+    - auth
+      - [...nextauth]
+        - route.ts
+  - dashboard
+    - drafts
+      - page.tsx
+    - group
+      - [groupId]
+        - page.tsx
+    - layout.tsx
+    - page.tsx
+  - icon.svg
+  - layout.tsx
+  - page.module.css
+  - page.tsx
+  - Providers.tsx
+  - signin
+    - DemoLogin.tsx
+    - NextAuthLogin.tsx
+    - page.tsx
+    - signin.module.css
+  - text
+    - [id]
+      - page.tsx
+      - TextDocumentView.tsx
+  - whiteboard
+    - [id]
+      - page.tsx
+      - WhiteboardDocumentView.tsx
+- auth.config.ts
+- auth.ts
+- components
+  - Badge
+    - Badge.module.css
+    - Badge.tsx
+    - index.ts
+  - Cursors
+    - Cursor.module.css
+    - Cursor.tsx
+    - Cursors.tsx
+    - index.ts
+  - Dashboard
+    - DashboardHeader.module.css
+    - DashboardHeader.tsx
+    - DashboardSidebar.module.css
+    - DashboardSidebar.tsx
+    - index.ts
+  - Document
+    - DocumentHeader.module.css
+    - DocumentHeader.tsx
+    - DocumentHeaderAvatars.tsx
+    - DocumentHeaderName.module.css
+    - DocumentHeaderName.tsx
+    - index.ts
+  - Documents
+    - DocumentCreatePopover.module.css
+    - DocumentCreatePopover.tsx
+    - DocumentDeleteDialog.module.css
+    - DocumentDeleteDialog.tsx
+    - DocumentIcon.tsx
+    - DocumentRow.module.css
+    - DocumentRow.tsx
+    - DocumentRowGroup.tsx
+    - index.ts
+  - Inbox
+    - Inbox.module.css
+    - Inbox.tsx
+    - InboxPopover.module.css
+    - InboxPopover.tsx
+    - index.ts
+  - Logo
+    - index.ts
+    - Logo.module.css
+    - Logo.tsx
+  - Marketing
+    - index.ts
+    - MarketingFooter.module.css
+    - MarketingFooter.tsx
+    - MarketingHeader.module.css
+    - MarketingHeader.tsx
+  - ShareDialog
+    - index.ts
+    - ShareDialog.module.css
+    - ShareDialog.tsx
+    - ShareDialogDefault.module.css
+    - ShareDialogDefault.tsx
+    - ShareDialogGroups.tsx
+    - ShareDialogInvite.module.css
+    - ShareDialogInviteGroup.tsx
+    - ShareDialogInviteUser.tsx
+    - ShareDialogRows.module.css
+    - ShareDialogUsers.tsx
+  - TextEditor
+    - CustomTaskItem.module.css
+    - CustomTaskItem.tsx
+    - index.ts
+    - SelectionMenu.tsx
+    - TextEditor.module.css
+    - TextEditor.tsx
+    - TextInlineAdvanced.tsx
+    - Toolbar.module.css
+    - Toolbar.tsx
+    - ToolbarAlignment.tsx
+    - ToolbarBlock.tsx
+    - ToolbarCommands.tsx
+    - ToolbarHeadings.tsx
+    - ToolbarInline.tsx
+    - ToolbarMedia.tsx
+    - ToolbarThread.tsx
+    - WordCount.module.css
+    - WordCount.tsx
+  - Whiteboard
+    - index.ts
+    - Whiteboard.module.css
+    - Whiteboard.tsx
+    - WhiteboardNote.module.css
+    - WhiteboardNote.tsx
+- components.json
+- constants.ts
+- data
+  - colors.ts
+  - groups.ts
+  - users.ts
+- icons
+  - AlignCenter.tsx
+  - AlignJustify.tsx
+  - AlignLeft.tsx
+  - AlignRight.tsx
+  - Blockquote.tsx
+  - Bold.tsx
+  - Check.tsx
+  - Checkbox.tsx
+  - Code.tsx
+  - CodeBlock.tsx
+  - Comment.tsx
+  - Copy.tsx
+  - Cross.tsx
+  - Delete.tsx
+  - Edit.tsx
+  - File.tsx
+  - Folder.tsx
+  - GitHub.tsx
+  - Highlight.tsx
+  - Image.tsx
+  - Inbox.tsx
+  - index.ts
+  - Italic.tsx
+  - Link.tsx
+  - ListOrdered.tsx
+  - ListUnordered.tsx
+  - Menu.tsx
+  - More.tsx
+  - Plus.tsx
+  - Redo.tsx
+  - Select.tsx
+  - Share.tsx
+  - SignIn.tsx
+  - SignOut.tsx
+  - Strikethrough.tsx
+  - Undo.tsx
+  - User.tsx
+  - Users.tsx
+  - YouTube.tsx
+- layouts
+  - Dashboard
+    - Dashboard.module.css
+    - Dashboard.tsx
+    - index.ts
+  - Document
+    - Document.module.css
+    - Document.tsx
+    - index.ts
+  - Documents
+    - Documents.tsx
+    - DocumentsList.module.css
+    - DocumentsList.tsx
+    - index.ts
+  - Error
+    - Error.module.css
+    - Error.tsx
+    - index.ts
+  - Marketing
+    - index.ts
+    - Marketing.module.css
+    - Marketing.tsx
+- lib
+  - actions
+    - authorizeLiveblocks.ts
+    - createDocument.ts
+    - deleteDocument.ts
+    - getDocument.ts
+    - getDocumentGroups.ts
+    - getDocuments.ts
+    - getDocumentUsers.ts
+    - getGroups.ts
+    - getLiveUsers.ts
+    - getNextDocuments.ts
+    - getSpecificDocuments.ts
+    - index.ts
+    - removeGroupAccess.ts
+    - removeUserAccess.ts
+    - renameDocument.ts
+    - updateDefaultAccess.ts
+    - updateGroupAccess.ts
+    - updateUserAccess.ts
+  - database
+    - getGroup.ts
+    - getGroups.ts
+    - getUser.ts
+    - getUsers.ts
+    - index.ts
+  - hooks
+    - index.ts
+    - useDocumentsFunctionSWR.ts
+    - useGroups.ts
+    - useInitialDocument.tsx
+    - usePaginatedDocumentsSWR.ts
+  - utils
+    - buildDocumentGroups.ts
+    - buildDocuments.ts
+    - buildDocumentUsers.ts
+    - convertAccessType.ts
+    - getDocumentAccess.ts
+    - getDraftsGroupName.ts
+    - index.ts
+    - isUserDocumentOwner.ts
+    - supabase
+      - client.ts
+      - middleware.ts
+      - server.ts
+    - userAllowedInRooms.ts
+  - utils.ts
+- liveblocks.config.ts
+- liveblocks.server.config.ts
+- middleware.ts
+- next-auth.d.ts
+- next-env.d.ts
+- next.config.js
+- package-lock.json
+- package.json
+- postcss.config.js
+- primitives
+  - Avatar
+    - Avatar.module.css
+    - Avatar.tsx
+    - index.ts
+  - AvatarStack
+    - AvatarStack.module.css
+    - AvatarStack.tsx
+    - index.ts
+  - Button
+    - Button.module.css
+    - Button.tsx
+    - index.ts
+  - Checkbox
+    - Checkbox.module.css
+    - Checkbox.tsx
+    - index.ts
+  - Container
+    - Container.module.css
+    - Container.tsx
+    - index.ts
+  - Dialog
+    - Dialog.module.css
+    - Dialog.tsx
+    - index.ts
+  - Input
+    - index.ts
+    - Input.module.css
+    - Input.tsx
+  - Link
+    - index.ts
+    - Link.tsx
+  - Popover
+    - index.ts
+    - Popover.module.css
+    - Popover.tsx
+  - Select
+    - index.ts
+    - Select.module.css
+    - Select.tsx
+  - Skeleton
+    - index.ts
+    - Skeleton.module.css
+    - Skeleton.tsx
+  - Spinner
+    - index.ts
+    - Spinner.module.css
+    - Spinner.tsx
+  - Tooltip
+    - index.ts
+    - Tooltip.module.css
+    - Tooltip.tsx
+- README.md
+- styles
+  - globals.css
+  - normalize.css
+  - text-editor.css
+- tailwind.config.js
+- tsconfig.json
+- types
+  - data.ts
+  - document.ts
+  - index.ts
+- utils
+  - capitalize.ts
+  - getContrastingColor.ts
+  - getInitials.ts
+  - index.ts
+  - normalizeTrailingSlash.ts
+  - useBoundingClientRectRef.ts
+  - useIsMobile.ts

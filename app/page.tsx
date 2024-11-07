@@ -9,6 +9,8 @@ import { Button } from "@/primitives/Button";
 // import { LinkButton } from "@/primitives/Button";
 import { Container } from "@/primitives/Container";
 import styles from "./page.module.css";
+import LoginButton from "@/components/LoginLogoutButton";
+import UserGreetText from "@/components/UserGreetText";
 
 export default async function Index() {
   const session = await auth();
@@ -39,13 +41,7 @@ export default async function Index() {
           >
             <Button icon={<SignInIcon />}>Sign in</Button>
           </form>
-          {/* <LinkButton
-            href="https://liveblocks.io/docs/guides/nextjs-starter-kit"
-            target="_blank"
-            variant="secondary"
-          >
-            Learn more
-          </LinkButton> */}
+          {/* <LoginButton /> */}
         </div>
       </Container>
     </MarketingLayout>
