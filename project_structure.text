@@ -4,7 +4,24 @@
 - .gitignore
 - .prettierignore
 - .prettierrc
+- actions
+  - auth.ts
 - app
+  - (auth)
+    - auth
+      - confirm
+        - route.ts
+    - login
+      - components
+        - loginForm.tsx
+        - SignInWithGoogleButton.tsx
+      - page.tsx
+    - logout
+      - page.tsx
+    - signup
+      - components
+        - SignUpForm.tsx
+      - page.tsx
   - api
     - auth
       - [...nextauth]
@@ -16,6 +33,8 @@
       - [groupId]
         - page.tsx
     - layout.tsx
+    - page.tsx
+  - error
     - page.tsx
   - icon.svg
   - layout.tsx
@@ -76,6 +95,7 @@
     - InboxPopover.module.css
     - InboxPopover.tsx
     - index.ts
+  - LoginLogoutButton.tsx
   - Logo
     - index.ts
     - Logo.module.css
@@ -117,6 +137,14 @@
     - ToolbarThread.tsx
     - WordCount.module.css
     - WordCount.tsx
+  - ui
+    - button.tsx
+    - card.tsx
+    - form.tsx
+    - input-otp.tsx
+    - input.tsx
+    - label.tsx
+  - UserGreetText.tsx
   - Whiteboard
     - index.ts
     - Whiteboard.module.css
@@ -211,6 +239,7 @@
     - updateDefaultAccess.ts
     - updateGroupAccess.ts
     - updateUserAccess.ts
+  - auth-action.ts
   - database
     - getGroup.ts
     - getGroups.ts
@@ -232,10 +261,6 @@
     - getDraftsGroupName.ts
     - index.ts
     - isUserDocumentOwner.ts
-    - supabase
-      - client.ts
-      - middleware.ts
-      - server.ts
     - userAllowedInRooms.ts
   - utils.ts
 - liveblocks.config.ts
@@ -299,6 +324,7 @@
     - index.ts
     - Tooltip.module.css
     - Tooltip.tsx
+- project_structure.text
 - README.md
 - styles
   - globals.css
@@ -316,5 +342,9 @@
   - getInitials.ts
   - index.ts
   - normalizeTrailingSlash.ts
+  - supabase
+    - client.ts
+    - middleware.ts
+    - server.ts
   - useBoundingClientRectRef.ts
   - useIsMobile.ts
