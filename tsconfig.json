@@ -24,6 +24,6 @@
       }
     ]
   },
-  "include": [".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "include": [".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "app/ThemeContext.ts"],
   "exclude": ["node_modules"]
 }
