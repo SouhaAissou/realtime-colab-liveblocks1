@@ -1,6 +1,8 @@
-# Real-Time Document Collaboration Platform
+# RealTime Colab 
 
-Welcome to the Real-Time Document Collaboration Platform! This project is part of a skills assessment for a Frontend/Full-Stack Engineer position at **Bigmama Technology**. The platform enables collaborative editing in real time, designed to be scalable, responsive, and user-friendly.
+Welcome to the Real-Time Document Collaboration Platform 'RealTime Colab'! This project is part of a skills assessment for a Frontend/Full-Stack Engineer position at **Bigmama Technology**. The platform enables collaborative editing in real time, designed to be scalable, responsive, and user-friendly.
+
+you'll find the deployed app at [text](https://realtime-colab-liveblocks1-git-main-souhaaissous-projects.vercel.app/)
 
 ---
 
@@ -62,3 +64,6 @@ To start the app in development mode:
 ```npm run dev
 ```
 The app will be available at http://localhost:3000 (or whatever adress will appear to you :D).
+
+
+
