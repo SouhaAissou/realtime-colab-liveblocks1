@@ -78,18 +78,27 @@ For development, this project uses:
    cd realtime-colab
    ```
 1. Install dependencies:
-  ```bash
-  npm install
-  ```
+    ```bash
+    npm install
+    ```
 1. Set up environment variables by creating an `.env.local` file.
 
 ### Running the Application
 
 To start the app in development mode:
-  ```bash
+  ```
   npm run dev
   ```
 The app will be available at http://localhost:3000 (or whatever adress will appear to you :D).
 
 
-
+<!-- ---
+## Docker Setup
+1. Build the Docker image:
+    ```
+    docker build -t realtime-colab .
+    ```
+1. Run the container:
+    ```
+    docker run -p 3000:3000 realtime-colab
+    ``` -->
