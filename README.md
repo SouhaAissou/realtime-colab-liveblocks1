@@ -2,7 +2,7 @@
 
 Welcome to the Real-Time Document Collaboration Platform 'RealTime Colab'! This project is part of a skills assessment for a Frontend/Full-Stack Engineer position at **Bigmama Technology**. The platform enables collaborative editing in real time, designed to be scalable, responsive, and user-friendly.
 
-you'll find the deployed app at [text](https://realtime-colab-liveblocks1-git-main-souhaaissous-projects.vercel.app/)
+you'll find the deployed app at [https://realtime-colab-liveblocks1-git-main-souhaaissous-projects.vercel.app/](https://realtime-colab-liveblocks1-git-main-souhaaissous-projects.vercel.app/)
 
 ---
 
